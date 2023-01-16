@@ -1,0 +1,36 @@
+load td res/TDgardenPhoto.jpg
+save res/TDgardenPhoto.png td
+sharpen td tdSharp
+blur td tdBlur
+sepia td tSepia
+brighten td 100 tdBright
+darken td -50 tdDark
+blur td tdBlur
+sepia td tdSepia
+verticalFlip td tdVert
+horizontalFlip td tdHorizontal
+redGreyscale td tdGreyRed
+greenGreyscale td tdGreyGreen
+blueGreyscale td tdGreyBlue
+valueGreyscale td tdGreyValid
+intensityGreyscale td tdGreyIntensity
+lumaGreyscale td tdGreyLuma
+greyscale td tdGreyScale
+save res2/TDgardenPhotoBright.png tdBright
+save res2/TDgardenPhotoDark.png tdDark
+save res2/TDgardenPhotoSharpen.png tdSharp
+save res2/TDgardenPhotoBlur.png tdBlur
+save res2/TDgardenPhotoSepia.png tdSepia
+save res2/TDgardenPhotoFlipVert.png tdVert
+save res2/TDgardenPhotoFlipHorizontal.png tdHorizontal
+save res2/TDgardenPhotoGSRed.png tdGreyRed
+save res2/TDgardenPhotoGSGreen.png tdGreyGreen
+save res2/TDgardenPhotoGSBlue.png tdGreyBlue
+save res2/TDgardenPhotoGSValid.png tdGreyValid
+save res2/TDgardenPhotoGSIntensity.png tdGreyIntensity
+save res2/TDgardenPhotoGSLuma.png tdGreyLuma
+save res2/TDgardenPhotoGSTransform.png tdGreyScale
+q
+
+
+
